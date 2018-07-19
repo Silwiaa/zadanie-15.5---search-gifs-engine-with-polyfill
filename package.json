@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server",
-    "babel-compile": "start: babel script.js --watch --out-file script-compiled.js"
+    "babel-compile": "start: babel script.js --watch --out-file script-compiled.js",
+    "polyfill": "npm install --save-dev babel-polyfill"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   "homepage": "https://github.com/Silwiaa/Git-Task-4#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
     "browser-sync": "^2.23.6",
     "globstar": "^1.0.0",
     "http-server": "^0.11.1",
@@ -27,10 +31,8 @@
     "npm-run-all": "^4.1.2",
     "nu-html-checker": "^0.1.0",
     "onchange": "^3.3.0",
-    "rimraf": "^2.6.2",
-    "babel-cli": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-latest": "^6.24.1"
+    "rimraf": "^2.6.2"
   },
-  "description": ""
+  "description": "https://silwiaa.github.io/zadanie-15.5---search-gifs-engine-with-polyfill/",
+  "dependencies": {}
 }
