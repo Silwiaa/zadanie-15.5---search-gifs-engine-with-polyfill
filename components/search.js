@@ -39,7 +39,7 @@ Search = React.createClass({
                  style={styles}
                  value={this.state.searchingText}
             />
-        )
+        );
     }
 });
 
