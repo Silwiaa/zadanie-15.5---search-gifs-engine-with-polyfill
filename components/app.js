@@ -1,4 +1,4 @@
-var GIPHY_API_URL = 'https://api.giphy.com',
+var GIPHY_API_URL = 'https://api.giphy.com/v1/',
     GIPHY_PUB_KEY = 'oQW0RyHQJsfi1wVWbqSmeJ85YZZvrkLQ';
 
 App = React.createClass({
